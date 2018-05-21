@@ -1,0 +1,1 @@
+This repo is for a database website for the game Rainbow 6 Siege. It will include a Live Player Count graph, an Operator link that shows the individual buffs or nerfs of a operator throughout the history of the game in an easy to understand format. It will also include the full patch notes of changes not directly connected to an operator such as map changes and bug fixes.
