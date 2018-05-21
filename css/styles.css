@@ -1,0 +1,85 @@
+.mainheader {
+  text-align: center;
+
+}
+
+.toptext {
+  text-align: center;
+  color: black;
+
+}
+
+
+.column {
+    float: left;
+    padding: 10px;
+    border: 5px solid red;
+}
+
+.right {
+  float: right;
+  padding: 10px;
+
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.page_image {
+  z-index: 0;
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  opacity: .2;
+  filter: saturate(120%) contrast(120%);
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.nav {
+  float: right;
+  padding-left: 0px;
+}
