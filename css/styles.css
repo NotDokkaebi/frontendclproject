@@ -1,18 +1,45 @@
-.mainheader {
+
+
+.page_banner {
+  text-align: auto;
+  background: radial-gradient(grey 1%, black 99%);
+  background-position: center;
+  background-size: cover;
+  margin: none;
+  padding: none;
+  height: 136px;
+  overflow: inherit;
+
+}
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+.player_count {
   text-align: center;
 
 }
 
 .toptext {
+  font-family: sans-serif;
   text-align: center;
-  color: black;
+  overflow-y: auto;
+  color: white;
+  text-shadow: 2px 2px 8px black;
 
 }
 
-.player_column,
+.patches_column,
 .operator_column {
-  width: 50%;
+  width: 30%;
   padding: 10px;
+  box-sizing: border-box;
+  background: #867676;
+  border: 1px #242323;
+  border-style: solid;
 
 }
 
@@ -60,14 +87,14 @@ ul {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
 }
 
 li a {
     display: block;
-    color: #000;
+    color: white;
     padding: 8px 16px;
     text-decoration: none;
+    text-shadow: 2px 2px 8px black;
 }
 
 /* Change the link color on hover */
@@ -79,4 +106,17 @@ li a:hover {
 .nav {
   float: right;
   padding-left: 0px;
+}
+
+.main_patches_content,
+.main_operator_content {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 8px black;
+  box-sizing: border-box;
+  background: #867676;
+  border: 1px #242323;
+  border-style: solid;
+
+
 }
