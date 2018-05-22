@@ -9,29 +9,26 @@
 
 }
 
-
-.column {
-    float: left;
-    padding: 10px;
-    border: 5px solid red;
-}
-
-.right {
-  float: right;
+.player_column,
+.operator_column {
+  width: 50%;
   padding: 10px;
 
 }
 
-/* Left and right column */
-.column.side {
-    width: 25%;
+/* Operator Column */
+.operator_column {
+  float: left;
+  overflow: auto;
+
 }
 
-/* Middle column */
-.column.middle {
-    width: 50%;
-}
+/* Patches Column*/
+.patches_column {
+  float: right;
+  overflow: auto;
 
+}
 
 /* Clear floats after the columns */
 .row:after {
