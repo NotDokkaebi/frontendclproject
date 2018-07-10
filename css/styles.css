@@ -59,14 +59,20 @@ a {
 }
 
 .operator_column {
+	padding: 10px;
+	border-radius: 5px;
   float: left;
+	background-color: grey;
   width: 40%;
   border: 1px solid grey;
 
 }
 
 .patches_column {
+	padding: 10px;
+	border-radius: 5px;
   float: right;
+	background-color: grey;
   width: 40%;
   border: 1px solid grey;
 }
@@ -155,6 +161,30 @@ li a {
   padding-top: 0;
 	padding: 2em 0;
   text-shadow: 0px 0px black;
+}
+
+/* =====Tachanka button==== */
+
+button {
+  background: #dae1e4;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  width: 480px;
+  padding: 40px 0;
+  margin: 0px -20px;
+}
+.Tachanka {
+  width: 440px;
+  margin: 0 auto 20px;
+  text-align: center;
+  font-size: 45px;
+}
+.Tachanka span img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
 }
 
 /* =====Media Queries======== */
